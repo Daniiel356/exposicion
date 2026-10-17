@@ -1,0 +1,47 @@
+<template id="1">
+    <br>
+
+    <svg class="centerX" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <path
+                id="arco1"
+                d="M 0,30 Q 50,0 100,30"
+            />
+        </defs>
+        <defs>
+            <path
+                id="arco2"
+                d="M 0,22 Q 50,-10 100,22"
+            />
+        </defs>
+
+        <text font-size="0.6vh" font-weight="bold">
+            <textPath
+                href="#arco2"
+                startOffset="50%"
+                text-anchor="middle"
+            >Grupo #2</textPath>
+        </text>
+        <text font-size="1vh" font-weight="bold">
+            <textPath
+                href="#arco1"
+                startOffset="50%"
+                text-anchor="middle"
+            >El propósito de la Educación</textPath>
+        </text>
+    </svg>
+
+    <img id="i1" class="centerX" src="./assets/images/1-1.png">
+    <img id="i2" src="./assets/images/cr-logo.png">
+    <style>
+        #cont{
+            background-image:  url("/assets/images/1-2.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        svg{width: 60%; aspect-ratio: 1/1; font-size: 1.75vh;}
+        #i1{height: 50%; aspect-ratio: 1/1; top: 20%}
+        #i2{width: 10%; aspect-ratio: 1/1; top: 2%; right: 5%;}
+    </style>
+</template>

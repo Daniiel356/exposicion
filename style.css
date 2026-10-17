@@ -1,0 +1,31 @@
+html, body{
+    width: 100%; height: 100%;
+    padding: 0; margin: 0;
+    overflow: hidden;
+    background: #333;
+}
+#cont{
+    position: absolute;
+    width: 100%; aspect-ratio: 2/1;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+*{
+    font-family: 'Commisioner', sans-serif; position: absolute;
+}
+
+@font-face {
+    font-family: "Commissioner";
+    src: url("./assets/fonts/commissioner.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+.centerX{
+    left: 50%; transform: translateX(-50%);
+}
